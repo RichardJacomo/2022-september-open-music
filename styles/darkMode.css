@@ -1,0 +1,43 @@
+.dark-mode h1{
+    color: var(--color-grey-9);
+}
+.dark-mode h3{
+    color: var(--color-grey-9);
+}
+.dark-mode button{
+    color: var(--color-grey-9);
+}
+body.dark-mode{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+  }
+header.dark-mode h1{
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-9);
+}
+.all.dark-mode{
+    color: var(--color-grey-9);
+}
+.all.dark-mode button{
+    background-color: #383d41;
+}
+.all.dark-mode img{
+    background-color: #383d41;
+}
+.all.dark-mode li{
+    background-color: var(--color-grey-2);
+}
+.all.dark-mode li p{
+    color: var(--color-grey-9);
+}
+.all.dark-mode li h3{
+    color: var(--color-grey-9);
+}
+.all.dark-mode li button{
+    color: var(--color-grey-9);
+}
+.all.dark-mode input{
+    background-color: var(--color-grey-1);
+}
+
+

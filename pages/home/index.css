@@ -1,0 +1,105 @@
+/* universals */
+.display-col{
+    display: flex;
+    flex-direction: column;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+/* nav menu */
+.nav-menu{
+    margin: 86px 0 68px 0;
+}
+.logo{
+    color: var(--color-grey-1);
+    font-size: var(--font-1);
+}
+/* filter menu */
+/* .section-filter{
+
+} */
+.title-genre{
+    color: var(--color-grey-1);
+    font-size: var(---font-2);
+    margin: 0 0 27px 0;
+}
+.div-filter-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 57px 0;
+}
+/* price filter */
+/* .section-price-filter{
+
+} */
+.div-price-filter{
+    display: flex;
+    justify-content: space-between;
+}
+.title-price-filter{
+    color: var(--color-grey-1);
+    font-size: var(---font-2);
+    margin: 0 0 33px 0;
+}
+.value-price-filter{
+    font-size: var(---font-2);
+}
+/* main products */
+.main-products{
+    margin: 0 0 80px 0;
+}
+.title-products{
+    font-size: var(--font-2);
+    margin: 0 0 62px 0;
+}
+/* ul products */
+.ul-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* li products */
+.li-product{
+    width: 324px;
+    height: 273px;
+    background-color: var(--color-grey-7);
+    margin: 12px 0px 12px 0px;
+    border-radius: var(--radius-2);
+    overflow: auto;
+}
+.img-product{
+    width: 324px;
+    height: 113px;
+    background-color: var(--color-grey-8);
+}
+.div-product{
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 0 0 18px;
+}
+.band-product{
+    color: var(--color-grey-1);
+    font-size: var(--font-3);
+    margin: 0 14px 24px 0;
+}
+.year-product{
+    color: var(--color-grey-1);
+    font-size: var(--font-3);
+}
+.name-product{
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    margin: 0 10px 24px 18px; 
+}
+.price-buy-product{
+    color: var(--color-grey-1);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px 0px 18px;
+    align-items: center;
+}
+.price-product{
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+}

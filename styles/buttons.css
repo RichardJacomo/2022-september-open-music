@@ -1,0 +1,39 @@
+/* button dark-mode */
+.dark-mode-button{
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.dark-mode-button img{
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-grey-8);
+}
+/* buttons filter menu */
+.button-filter{
+    padding: 7px 10px 7px 10px;
+    background-color: var(--color-grey-6);
+    color: var(--color-grey-1);
+    margin: 0 28px 30px 0;
+    border-radius: var(--radius-1);
+    border: 1px solid var(--color-grey-6);
+}
+     
+.button-filter:focus{
+    border: 1px solid var(--color-brand-1);
+}
+
+.button-filter:hover{
+    background-color: var(--color-grey-4);
+}
+/* buttons buy product */
+.buy-product{
+    width: 75px;
+    height: 32px;
+    background-color: var(--color-grey-6);
+    border: none;
+    border-radius: var(--radius-1);
+}
+.buy-product:hover{
+    background-color: var(--color-grey-4);
+}

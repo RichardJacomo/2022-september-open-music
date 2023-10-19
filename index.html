@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/darkMode.css" />
+    <link rel="stylesheet" href="styles/globalStyles.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/inputs.css" />
+    <link rel="stylesheet" href="pages/home/index.css" />
+    <title>Open Music</title>
+  </head>
+  <body class="container all">
+    <header class="all">
+      <div class="nav-menu space-between">
+      <h1 class="logo">open music</h1>
+      <button class="dark-mode-button all"><img class="img-icon" src="" alt=""></button>
+    </div>
+    </header>
+    <section class="section-filter">
+      <h3 class="title-genre all">Gênero Musical</h3>
+      <div class="div-filter-buttons all">
+        <button class="button-filter all">Todos</button>
+        <button class="button-filter all">MPB</button>
+        <button class="button-filter all">Forró</button>
+        <button class="button-filter all">Samba</button>
+        <button class="button-filter all">Baião</button>
+        <button class="button-filter all">Rap</button>
+        <button class="button-filter all">Hip-Hop</button>
+        <button class="button-filter all">Rock</button>
+        <button class="button-filter all">Reggae</button>
+        <button class="button-filter all">Country</button>
+        <button class="button-filter all">Gospel</button>
+        <button class="button-filter all">Pop</button>
+      </div>
+    </section>
+    <section class="section-price-filter">
+      <div class="div-price-filter all">
+        <h3 class="title-price-filter all">Definir preço</h3>
+        <!-- será dinamico o valor -->
+        <h3 class="value-price-filter"></h3>
+      </div>
+      <input class="input-price-filter" type="range" value="0" id="price-filter" name="price-filter" min="0" max="90" step="10">
+    </section>
+    <main class="main-products">
+      <h3 class="title-products">Albuns Encontrados</h3>
+      <ul class="ul-products all">
+        <!-- <li class="li-product">
+          <img class="img-product" src="" alt="">
+          <div class="div-product">
+            <p class="band-product all">Scalene</p>
+            <p class="year-product all">2017</p>
+          </div>
+          <h3 class="name-product all">Magnetite</h3>
+          <div class="price-buy-product all">
+            <h3 class="price-product all">R$ 70.00</h3>
+            <button class="buy-product all">Comprar</button>
+          </div>
+        </li>
+        <li class="li-product">
+          <img class="img-product" src="" alt="">
+          <div class="div-product">
+            <p class="band-product all">Scalene</p>
+            <p class="year-product all">2017</p>
+          </div>
+          <h3 class="name-product all">Magnetite</h3>
+          <div class="price-buy-product all">
+            <h3 class="price-product all">R$ 70.00</h3>
+            <button class="buy-product all">Comprar</button>
+          </div>
+        </li>
+        <li class="li-product">
+          <img class="img-product" src="" alt="">
+          <div class="div-product">
+            <p class="band-product all">Scalene</p>
+            <p class="year-product all">2017</p>
+          </div>
+          <h3 class="name-product all">Magnetite</h3>
+          <div class="price-buy-product all">
+            <h3 class="price-product all">R$ 70.00</h3>
+            <button class="buy-product all">Comprar</button>
+          </div>
+        </li> -->
+      </ul>
+    </main>  
+    <script src="scripts/theme.js"></script>
+    <script src="pages/home/productsData.js"></script>
+    <script src="pages/home/index.js"></script>
+    <script src="pages/home/darkMode.js"></script>
+  </body>
+</html>
